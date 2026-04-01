@@ -10,10 +10,10 @@ SentinelAI is a specialized proxy designed to anonymize sensitive customer data 
 - **FinTech Optimized:** Pre-configured patterns for IBAN, SWIFT, and multi-currency credit card formats.
 
 ## 🛠 Tech Stack
-- **Language:** Python 3.14 (Stable)
+- **Language:** Python 3.14 (Stable Standard)
 - **Framework:** FastAPI
 - **Security:** Microsoft Presidio Logic + Custom Subinterpreter Scanners
-- **Compliance:** GDPR, CCSP Standards
+- **Compliance:** GDPR, NIST AI RMF, CCSP Standards
 
 ## 📊 Benchmarks
 | Engine | Latency (10kb text) | Throughput |
@@ -21,5 +21,13 @@ SentinelAI is a specialized proxy designed to anonymize sensitive customer data 
 | Standard Python 3.12 | 45ms | 1x |
 | **SentinelAI (3.14 Parallel)** | **12ms** | **3.8x** |
 
----
-*Created by Aleksei Matveenko — AI Programmer & Security Enthusiast.*
+## 📦 Getting Started (Docker)
+
+To deploy SentinelAI in a secure production environment:
+
+```bash
+# Build the high-performance container
+docker build -t sentinel-ai-gateway .
+
+# Run the proxy
+docker run -p 8000:8000 sentinel-ai-gateway

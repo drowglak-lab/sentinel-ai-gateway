@@ -1,5 +1,14 @@
 # SentinelAI Gateway v2.0 🛡️
 
+🗺 Future Roadmap
+[ ] HSM Integration: Support for Hardware Security Modules to handle encryption keys.
+
+[ ] Advanced Guardrails: Integration with LlamaGuard for toxic content filtering.
+
+[ ] Dynamic Patterns: Automated discovery of new PII formats using specialized small-language models (SLMs).
+
+[ ] Multi-Region Sync: Global token vault synchronization for cross-border banking operations.
+
 ### High-Performance AI Security for Banking Infrastructure
 
 SentinelAI is a specialized proxy designed to anonymize sensitive customer data (PII) before it reaches Large Language Models. Built for the high-security requirements of 2026 financial systems.
@@ -31,12 +40,3 @@ docker build -t sentinel-ai-gateway .
 
 # Run the proxy
 docker run -p 8000:8000 sentinel-ai-gateway
-
-🗺 Future Roadmap
-[ ] HSM Integration: Support for Hardware Security Modules to handle encryption keys.
-
-[ ] Advanced Guardrails: Integration with LlamaGuard for toxic content filtering.
-
-[ ] Dynamic Patterns: Automated discovery of new PII formats using specialized small-language models (SLMs).
-
-[ ] Multi-Region Sync: Global token vault synchronization for cross-border banking operations.

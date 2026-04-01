@@ -31,3 +31,12 @@ docker build -t sentinel-ai-gateway .
 
 # Run the proxy
 docker run -p 8000:8000 sentinel-ai-gateway
+
+🗺 Future Roadmap
+[ ] HSM Integration: Support for Hardware Security Modules to handle encryption keys.
+
+[ ] Advanced Guardrails: Integration with LlamaGuard for toxic content filtering.
+
+[ ] Dynamic Patterns: Automated discovery of new PII formats using specialized small-language models (SLMs).
+
+[ ] Multi-Region Sync: Global token vault synchronization for cross-border banking operations.

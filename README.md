@@ -1,6 +1,7 @@
 # SentinelAI Gateway v2.0 🛡️
 
 🗺 Future Roadmap
+
 [ ] HSM Integration: Support for Hardware Security Modules to handle encryption keys.
 
 [ ] Advanced Guardrails: Integration with LlamaGuard for toxic content filtering.
